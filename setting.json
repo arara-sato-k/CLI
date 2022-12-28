@@ -1,0 +1,226 @@
+{
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoGuessEncoding": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.enablePreview": false,
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "erb"
+        ]
+    },
+    "files.associations": {
+        "*.inc": "html"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.formatOnType": true,
+    "terminal.integrated.fontFamily": "Menlo",
+    "editor.fontFamily": "Menlo",
+    "terminal.integrated.inheritEnv": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100",
+        "--ignore=E203,W503,W504",
+        "--max-complexity=20"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--aggressive",
+        "--aggressive"
+    ],
+    "autoDocstring.docstringFormat": "google",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.docx": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.languageServer": "Pylance",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": false,
+        "python": true
+    },
+    "python.defaultInterpreterPath": "/Users/sato.k/opt/anaconda3/bin/python",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.detectIndentation": false,
+    "laravel_goto_view.folders": {
+        "default": "/resources/views",
+        "theme_xxx": "/resources/views/theme_xxx"
+    },
+    "intelephense.diagnostics.undefinedClassConstants": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "editor.autoClosingOvertype": "always",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#c5cfd9"
+    },
+    "git.confirmSync": false,
+    "cSpell.userWords": [
+        "Apiato",
+        "Apidoc",
+        "arara",
+        "autofetch",
+        "axios",
+        "Barryvdh",
+        "boto",
+        "BUILDKIT",
+        "Chakra",
+        "consts",
+        "decolated",
+        "dotenv",
+        "eipalloc",
+        "firestore",
+        "gcloud",
+        "Hostnames",
+        "IAMROLE",
+        "iframe",
+        "intelephense",
+        "journaling",
+        "Kota",
+        "laravel",
+        "lpms",
+        "mailinglist",
+        "Middlewares",
+        "mssandbox",
+        "NEXTAUTH",
+        "nums",
+        "openapi",
+        "pylint",
+        "Redrive",
+        "sato",
+        "satokota",
+        "TABLENAME",
+        "tanstack",
+        "testid",
+        "textbox",
+        "todos",
+        "traceparent",
+        "Unauth",
+        "uuidv",
+        "vpcid",
+        "vuejs",
+        "yearmonth"
+    ],
+    "gitlens.defaultDateFormat": "YY/MMMM/Do(dddd) k:m",
+    "gitlens.defaultDateShortFormat": null,
+    "terminal.integrated.fontSize": 17,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "redhat.telemetry.enabled": true,
+    "plantuml.commandArgs": [
+        "-Xmx2g",
+        "-DPLANTUML_LIMIT_SIZE=16384"
+    ],
+    "yaml.customTags": [
+        "!Ref",
+        "!Sub scalar",
+        "!Sub sequence",
+        "!Join sequence",
+        "!FindInMap sequence",
+        "!GetAtt scalar",
+        "!GetAtt sequence",
+        "!Base64 mapping",
+        "!GetAZs",
+        "!Select scalar",
+        "!Select sequence",
+        "!Split sequence",
+        "!ImportValue",
+        "!Condition",
+        "!Equals sequence",
+        "!And",
+        "!If",
+        "!Not",
+        "!Or"
+    ],
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "gitignore.cacheExpirationInterval": 3600,
+    "files.insertFinalNewline": true,
+    "auto-rename-tag.activationOnLanguage": [
+        "html"
+    ],
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+    "githubPullRequests.pullBranch": "never",
+    "liveshare.featureSet": "insiders",
+    "git.ignoreMissingGitWarning": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "turboConsoleLog.quote": "'",
+    "turboConsoleLog.addSemicolonInTheEnd": true,
+    "turboConsoleLog.insertEnclosingClass": true
+}
