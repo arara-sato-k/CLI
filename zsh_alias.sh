@@ -26,8 +26,3 @@ alias gr='git reset'
 alias dcb='docker compose build'
 alias dcbn='docker compose build --no-cache'
 alias dcu='docker compose up'
-
-# ms-auth-web
-alias dce='docker compose exec app sh'
-alias ecrin='aws ecr get-login-password --region ap-northeast-1 --profile=ms-dev| docker login --username AWS --password-stdin 187632736670.dkr.ecr.ap-northeast-1.amazonaws.com'
-alias gpush='docker build --target prod -t ms-auth-web . && docker tag ms-auth-web gcr.io/mssandbox-367908/ms-auth-web:latest && docker push gcr.io/mssandbox-367908/ms-auth-web:latest && gcloud run services update ms-auth-web --image gcr.io/mssandbox-367908/ms-auth-web:latest'
