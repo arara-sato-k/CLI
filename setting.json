@@ -70,7 +70,7 @@
         "*.inc": "html"
     },
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "files.autoSaveDelay": 800,
     "emmet.triggerExpansionOnTab": true,
     "editor.formatOnType": true,
     "terminal.integrated.fontFamily": "Menlo",
@@ -81,8 +81,8 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--max-line-length=100",
-        "--ignore=E203,W503,W504",
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
         "--max-complexity=20"
     ],
     "python.formatting.provider": "autopep8",
@@ -111,7 +111,7 @@
         "markdown": false,
         "python": true
     },
-    "python.defaultInterpreterPath": "/Users/sato.k/opt/anaconda3/bin/python",
+    "python.defaultInterpreterPath": "/Users/sato.k/.pyenv/shims/python",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.detectIndentation": false,
     "laravel_goto_view.folders": {
@@ -139,6 +139,7 @@
         "BUILDKIT",
         "Chakra",
         "consts",
+        "davinci",
         "decolated",
         "dotenv",
         "eipalloc",
@@ -157,6 +158,7 @@
         "mssandbox",
         "NEXTAUTH",
         "nums",
+        "openai",
         "openapi",
         "pylint",
         "Redrive",
@@ -209,17 +211,11 @@
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
-    "gitignore.cacheExpirationInterval": 3600,
     "files.insertFinalNewline": true,
-    "auto-rename-tag.activationOnLanguage": [
-        "html"
-    ],
     "typescript.suggest.paths": false,
     "javascript.suggest.paths": false,
-    "githubPullRequests.pullBranch": "never",
     "liveshare.featureSet": "insiders",
     "git.ignoreMissingGitWarning": true,
-    "bracket-pair-colorizer-2.depreciation-notice": false,
     "turboConsoleLog.quote": "'",
     "turboConsoleLog.addSemicolonInTheEnd": true,
     "turboConsoleLog.insertEnclosingClass": true
